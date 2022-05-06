@@ -1,0 +1,8 @@
+.welcome {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #f0f2f5;
+    text-align: center;
+    border: 2px solid #f0f2f5;
+    box-shadow: 3px 3px 10px 10px #f0f2f5;
+}

@@ -1,0 +1,8 @@
+1) Create a database named 'ration'
+
+2) Run the following SQL query to create the database 
+
+CREATE TABLE `ration`.`users` ( `id` INT(100) NOT NULL AUTO_INCREMENT ,
+  `username` VARCHAR(100) NOT NULL ,  `password` VARCHAR(255) NOT NULL , 
+ `adhaar` VARCHAR(15) NOT NULL ,  `date` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP , 
+   PRIMARY KEY  (`id`)) ENGINE = InnoDB;
